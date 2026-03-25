@@ -16,6 +16,11 @@
 
 cd jeu_trains
 # lors du premier lancement 
+python -m venv env
+# sur unix source .bin/activate 
+# sur windows .\env\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 

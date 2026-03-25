@@ -1,5 +1,6 @@
 from django.test import TestCase
 
+
 class FirtTest(TestCase) :
     def setUp(self):
         return super().setUp()

@@ -1,0 +1,8 @@
+[tool.ruff]
+# Exclure les dossiers de migration
+exclude = ["**/migrations/*.py"]
+line-length = 88
+
+[tool.ruff.lint]
+# Activer les règles de base (Pyflakes, Pycodestyle)
+select = ["E", "F", "I"]

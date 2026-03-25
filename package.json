@@ -1,0 +1,25 @@
+{
+  "name": "jeu-des-trains",
+  "version": "1.0.0",
+  "description": "- [jeu-des-trains](#jeu-des-trains)\r   - [contenues des applications](#contenues-des-applications)\r   - [lancer django](#lancer-django)",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zykogithub/jeu-des-trains.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zykogithub/jeu-des-trains/issues"
+  },
+  "homepage": "https://github.com/zykogithub/jeu-des-trains#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "husky": "^9.1.7"
+  }
+}
